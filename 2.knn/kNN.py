@@ -14,12 +14,12 @@ def kNN_classify(k, X_train, y_train, X):
     votes = Counter(topY)
     return votes.most_common(1)[0][0]
 
-if __name__ == "__main__":
+def cal():
     #s = "2 2 2 2 1 2 1 1 2 2 3 2 2 2 2" #28 = 1.4
     #s = "1 1 1 1 1 2" #7 = 0.35
     #s = "1 1 1 1 2 1 1 1" #9 = 0.45
     #s = "2 1 1 1 1 1" #7 = 0.35
     s = "1 1 1 2 1" #6 = 0.3
     v = "+".join(s.split(" "))
-    print(v)
-    print(eval(v))
+    #print(v)
+    #print(eval(v))
