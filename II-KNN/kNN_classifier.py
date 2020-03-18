@@ -1,6 +1,7 @@
 import numpy as np
 from math import sqrt
 from collections import Counter
+from matrics import accuracy_score
 
 class myKNNClassifier:
 
@@ -42,3 +43,10 @@ class myKNNClassifier:
 
     def __repr__(self):
         return "Bessie: from __repr__: KNN(k = %d)" % self.k
+
+    def score(self, X_test, y_test):
+        '''根据测试数据集X_test， y_test来判断模型accuracy'''
+        y_predict = self.predict(X_test)
+        return accuracy_score(y_test, y_predict)
+
+

@@ -1,6 +1,8 @@
 import numpy as np
+import sys
+sys.path.append('..')
 
-def train_test_split(X, y, test_ratio = 0.2, seed = None):
+def my_train_test_split(X, y, test_ratio = 0.2, seed = None):
     assert X.shape[0] == y.shape[0],\
         "The number of sample of X and y must be the same."
     assert 0.0 <= test_ratio <= 1.0, \
