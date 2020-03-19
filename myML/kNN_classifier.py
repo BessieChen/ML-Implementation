@@ -1,7 +1,7 @@
 import numpy as np
 from math import sqrt
 from collections import Counter
-from matrics import accuracy_score
+#from matrics import accuracy_score
 
 class myKNNClassifier:
 
@@ -50,8 +50,8 @@ class myKNNClassifier:
         return accuracy_score(y_test, y_predict)
 
 
-#
-# def accuracy_score(y_true, y_predict):
-#     assert y_true.shape[0] == y_predict.shape[0],\
-#         "the sample number of y_true must be equal to y_predict"
-#     return np.sum(y_true == y_predict) / len(y_true)
+
+def accuracy_score(y_true, y_predict):
+    assert y_true.shape[0] == y_predict.shape[0],\
+        "the sample number of y_true must be equal to y_predict"
+    return np.sum(y_true == y_predict) / len(y_true)

@@ -2,64 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc781f7-9f36-4842-bb3c-afb87babdaf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SimpleLinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kNN_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_selection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/.ipynb_checkpoints/03. numpy.array Basics2-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/.ipynb_checkpoints/04. numpy.array Basic Operations-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/.ipynb_checkpoints/05. Concatenate and Split-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/.ipynb_checkpoints/06. ArgX-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/.ipynb_checkpoints/07. Fancy Indexing-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/.ipynb_checkpoints/08. matplotlib basics-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/.ipynb_checkpoints/09. Data reading and exploration-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/01. Jupyter Notebook Magic Commands.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/02. numpy.array Basics.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/03. numpy.array Basics2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/04. numpy.array Basic Operations.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/05. Concatenate and Split.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/06. ArgX.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/07. Fancy Indexing.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/08. matplotlib basics.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I-numpy-matplotlib-basics/09. Data reading and exploration.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.idea/02.KNN.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/01-kNN-Basics-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/02-kNN-in-scikit-learn.-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/03. Train Test Split-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/04. Hyper parameter K-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/05. Hyper parameters-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/06. Grid Search-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/07. Feature Scaling-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/.ipynb_checkpoints/08. Scaler in sklearn-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/01-kNN-Basics.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/02-kNN-in-scikit-learn..ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/03. Train Test Split.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/04. Hyper parameter K.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/05. Hyper parameters.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/06. Grid Search.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/07. Feature Scaling.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/08. Scaler in sklearn.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/kNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/kNN_classifier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/matrics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/model_selection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../II-KNN/preprocessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/.idea/III-Linear-Regression.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/.ipynb_checkpoints/01. Simple-Linear-Regression-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/01. Simple-Linear-Regression.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III-Linear-Regression/SimpleLinearRegression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kNN_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/kNN_classifier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -90,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kNN_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -123,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -160,9 +104,9 @@
         <option value="$PROJECT_DIR$/matrics.py" />
         <option value="$PROJECT_DIR$/model_selection.py" />
         <option value="$PROJECT_DIR$/SimpleLinearRegression.py" />
+        <option value="$PROJECT_DIR$/preprocessing.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/kNN_classifier.py" />
-        <option value="$PROJECT_DIR$/preprocessing.py" />
       </list>
     </option>
   </component>
@@ -200,6 +144,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -275,6 +220,14 @@
       <option name="presentableId" value="Default" />
       <updated>1584583396318</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1584586481107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584586481107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -319,38 +272,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kNN_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -375,6 +305,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kNN_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
