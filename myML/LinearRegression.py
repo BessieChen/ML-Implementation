@@ -5,6 +5,7 @@ class myLinearRegression:
 
     def __init__(self):
         self.coef_ = None
+
         self.interception_ = None
         self._theta = None
         #TODO: 私有变量：_theta
@@ -19,6 +20,88 @@ class myLinearRegression:
         self.coef_ = self._theta[1:]
 
         return self
+
+    def fit_gd(self, X_train, y_train, eta = 0.01, n_iters = 1e4, epsilon = 1e-8):
+        assert X_train.shape[0] == y_train.shape[0], "The sample number of X_train and y_train must be the same."
+
+        def J(theta, X_b, y):  # 损失函数J，其中X_b是已经加了第一列是1
+            try:
+                y_hat = X_b.dot(theta)
+                return np.sum((y - y_hat) ** 2) / len(X_b)
+            except:
+                return float('inf')
+
+        # def dJ(theta, X_b, y): #非向量化
+        #     res = np.empty(len(theta))
+        #     res[0] = np.sum(X_b.dot(theta) - y)
+        #     for i in range(1, len(theta)):
+        #         res[i] = (X_b.dot(theta) - y).dot(X_b[:, i])  # 将(X_b.dot(theta) - y)看做行向量，而不是列向量
+        #     return res / len(X_b) * 2
+
+        def dJ(theta, X_b, y): #向量化
+            return X_b.T.dot(X_b.dot(theta) - y) / len(X_b) * 2.
+
+        def gradient_descent(X_b, y, initial_theta, eta, n_iters, epsilon):
+            theta = initial_theta
+            i_iter = 0
+            while i_iter <= n_iters:
+                gradient = dJ(theta, X_b, y)
+                last_theta = theta
+                theta = theta + (-1) * eta * gradient
+                if (abs(J(theta, X_b, y) - J(last_theta, X_b, y)) < epsilon):
+                    break
+                i_iter += 1
+
+            return theta
+
+        X_b = np.hstack([np.ones((X_train.shape[0], 1)), X_train])
+        initial_theta = np.zeros(X_b.shape[1])  # 矩阵
+
+        self._theta = gradient_descent(X_b, y_train, initial_theta, eta, n_iters, epsilon)
+        self.coef_ = self._theta[1:]
+        self.interception_ = self._theta[0]
+        return self
+
+    def fit_sgd(self, X_train, y_train, n_iters = 5, t0 = 5, t1 = 50): #sgd(), n_iters的定义不是迭代次数，因为迭代次数与X_train大小有关，n_iters现在定义为X_train看几圈
+        assert X_train.shape[0] == y_train.shape[0], "The sample number of X_train and y_train must be the same."
+
+        def dJ_sgd(theta, X_b_i, y_i):  # 传入的不是X_b整个矩阵而是X_b的第i个样本，y也变成y_i
+            return X_b_i.T.dot(X_b_i.dot(theta) - y_i) / len(X_b_i) * 2.
+
+        def sgd(X_b, y, initial_theta, n_iters, t0, t1):  # 不需要传入学习率eta，是里面自己计算的
+
+            def learning_rate(t):
+                return t0 / (t + t1)
+
+            theta = initial_theta
+            m = len(X_b)
+            """为什么不需要下面这一段：这一段的break条件：1. i_iters 超过 n_iters 2. abs()差值足够小
+            while i_iter <= n_iters:
+                gradient = dJ(theta, X_b, y)
+                last_theta = theta
+                theta = theta + (-1) * eta * gradient
+                if (abs(J(theta, X_b, y) - J(last_theta, X_b, y)) < epsilon): #因为采用sgd，下降方向是随机的，即便abs(xx-yy)的值很小，也不代表到了最低值
+                    break
+                i_iter += 1
+            """
+            # 现在break条件： i_iters 超过 n_iters （所以用for loop）
+            for cur_iter in range(n_iters * m):
+                rand_i = np.random.randint(m)
+                gradient = dJ_sgd(theta, X_b[rand_i], y[rand_i])
+                theta = theta + (-1) * learning_rate(cur_iter) * gradient
+
+            return theta
+        
+        X_b = np.hstack([np.ones((len(X_train), 1)), X_train])
+        initial_theta = np.zeros(X_b.shape[1])
+        self._theta = sgd(X_b, y_train, initial_theta, n_iters, t0, t1)
+        self.interception_ = self._theta[0]
+        self.coef_ = self._theta[1:]
+
+        return self
+
+
+
 
     def predict(self, X_predict):
         '''测试训练集'''
