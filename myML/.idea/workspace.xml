@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc781f7-9f36-4842-bb3c-afb87babdaf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../III_Linear-Regression/.ipynb_checkpoints/01. Simple-Linear-Regression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../III_Linear-Regression/.ipynb_checkpoints/01. Simple-Linear-Regression-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../III_Linear-Regression/01. Simple-Linear-Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../III_Linear-Regression/01. Simple-Linear-Regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IV_Gradient_Descent/.ipynb_checkpoints/01. Gradient Descent Simulation-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../IV_Gradient_Descent/.ipynb_checkpoints/01. Gradient Descent Simulation-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression.py" afterDir="false" />
     </list>
@@ -93,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="64" column="133" selection-start-line="64" selection-start-column="133" selection-end-line="64" selection-end-column="133" />
+            <state relative-caret-position="153">
+              <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -134,10 +131,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="516" />
-    <option name="y" value="83" />
-    <option name="width" value="1154" />
-    <option name="height" value="865" />
+    <option name="x" value="227" />
+    <option name="y" value="42" />
+    <option name="width" value="1453" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -254,11 +251,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="516" y="83" width="1154" height="865" extended-state="0" />
+    <frame x="227" y="42" width="1453" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24977934" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1976257" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -362,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="64" column="133" selection-start-line="64" selection-start-column="133" selection-end-line="64" selection-end-column="133" />
+        <state relative-caret-position="153">
+          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

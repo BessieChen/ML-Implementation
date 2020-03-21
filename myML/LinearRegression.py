@@ -62,9 +62,9 @@ class myLinearRegression:
         self.interception_ = self._theta[0]
         return self
 
-    def fit_sgd(self, X_train, y_train, n_iters = 5, t0 = 5, t1 = 50): #sgd(), n_iters的定义不是迭代次数，因为迭代次数与X_train大小有关，n_iters现在定义为X_train看几圈
+    def fit_sgd(self, X_train, y_train, n_iters = 5, t0 = 5, t1 = 50): #TODO：sgd(), n_iters的定义不是迭代次数，因为迭代次数与X_train大小有关，n_iters现在定义为X_train看几圈
         assert X_train.shape[0] == y_train.shape[0], "The sample number of X_train and y_train must be the same."
-
+        assert n_iters >= 1, "We must iterate all sample for at least one time."
         def dJ_sgd(theta, X_b_i, y_i):  # 传入的不是X_b整个矩阵而是X_b的第i个样本，y也变成y_i
             return X_b_i.T.dot(X_b_i.dot(theta) - y_i) / len(X_b_i) * 2.
 
@@ -85,13 +85,17 @@ class myLinearRegression:
                 i_iter += 1
             """
             # 现在break条件： i_iters 超过 n_iters （所以用for loop）
-            for cur_iter in range(n_iters * m):
-                rand_i = np.random.randint(m)
-                gradient = dJ_sgd(theta, X_b[rand_i], y[rand_i])
-                theta = theta + (-1) * learning_rate(cur_iter) * gradient
+            for cur_iter in range(n_iters):
+                indexes = np.random.permutation(m) #TODO：将index顺序打乱：既保证了全部样本都用到，有保证样本的顺序随机
+                X_b_new = X_b[indexes]
+                y_new = y[indexes]
+                #TODO：去除这一行，因为不能保证每个样本都被选中：rand_i = np.random.randint(m)
+                for i in range(m):
+                    gradient = dJ_sgd(theta, X_b_new[i], y_new[i])
+                    theta = theta + (-1) * learning_rate(cur_iter * m + i) * gradient #TODO: 从learning_rate(cur_iter)改为learning_rate(cur_iter * m + i)，例如当cur_iter=0， i=0时候，是learning_rate(0)
 
             return theta
-        
+
         X_b = np.hstack([np.ones((len(X_train), 1)), X_train])
         initial_theta = np.zeros(X_b.shape[1])
         self._theta = sgd(X_b, y_train, initial_theta, n_iters, t0, t1)
