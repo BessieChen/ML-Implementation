@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc781f7-9f36-4842-bb3c-afb87babdaf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LogisticRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/.ipynb_checkpoints/01. Polynomial Regression-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/.ipynb_checkpoints/02. Polynomial Regression in sklearn-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/.ipynb_checkpoints/03. Underfitting and Overfitting-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/.ipynb_checkpoints/04. Learning Curve-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/.ipynb_checkpoints/05. Validation and Cross-Validation-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/.ipynb_checkpoints/06. Ridge Regularization-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/.ipynb_checkpoints/07. LASSO-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/01. Polynomial Regression.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/02. Polynomial Regression in sklearn.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/03. Underfitting and Overfitting.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/04. Learning Curve.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/05. Validation and Cross-Validation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/06. Ridge Regularization.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/07. LASSO.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VI_polynomial regression/img/poly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VII_Logistic_Regression/02. Implement Logistic Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../VII_Logistic_Regression/02. Implement Logistic Regression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myMLImplementation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimpleLinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="1350">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -109,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="18" selection-end-line="122" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -122,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/PCA.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
-              <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+              <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -130,12 +115,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LogisticRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+            <state relative-caret-position="347">
+              <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#242#251#0" />
-                <element signature="e#2329#2469#0" />
+                <element signature="e#2159#2299#0" />
               </folding>
             </state>
           </provider>
@@ -177,10 +162,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="648" />
-    <option name="y" value="295" />
-    <option name="width" value="1453" />
-    <option name="height" value="874" />
+    <option name="x" value="487" />
+    <option name="width" value="1157" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,6 +183,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,10 +281,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="52" width="1453" height="874" extended-state="0" />
+    <frame x="487" y="0" width="1157" height="936" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="Favorites" order="0" sideWeight="0.50127876" side_tool="true" visible="true" weight="0.13268156" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49872124" visible="true" weight="0.13268156" />
+      <window_info id="Favorites" order="0" sideWeight="0.5035545" side_tool="true" visible="true" weight="0.16725352" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4964455" visible="true" weight="0.16725352" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -394,8 +379,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SimpleLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="1350">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="18" selection-end-line="122" selection-end-column="44" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -405,28 +400,18 @@
     <entry file="file://$PROJECT_DIR$/PCA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinearRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-end-line="122" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LogisticRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+        <state relative-caret-position="347">
+          <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#242#251#0" />
-            <element signature="e#2329#2469#0" />
+            <element signature="e#2159#2299#0" />
           </folding>
         </state>
       </provider>

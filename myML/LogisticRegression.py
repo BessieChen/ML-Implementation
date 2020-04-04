@@ -22,10 +22,10 @@ class myLogisticRegression:
     #
     #     return self
 
-    def _sigmoid(self, t):
+    def _sigmoid(self, t): #有下划线，说明是私有函数
         return 1./ (1. + np.exp(-t))
 
-    def fit(self, X_train, y_train, eta = 0.01, n_iters = 1e4, epsilon = 1e-8):
+    def fit(self, X_train, y_train, eta = 0.01, n_iters = 1e4, epsilon = 1e-8): #用梯度下降法求解logistic regression
         assert X_train.shape[0] == y_train.shape[0], "The sample number of X_train and y_train must be the same."
 
         def J(theta, X_b, y):  # 损失函数J，其中X_b是已经加了第一列是1
