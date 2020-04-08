@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc781f7-9f36-4842-bb3c-afb87babdaf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/matrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/matrics.py" afterDir="false" />
-    </list>
+    <list default="true" id="3fc781f7-9f36-4842-bb3c-afb87babdaf8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="487" />
+    <option name="x" value="523" />
+    <option name="y" value="87" />
     <option name="width" value="1157" />
     <option name="height" value="936" />
   </component>
@@ -279,7 +278,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="487" y="0" width="1157" height="936" extended-state="0" />
+    <frame x="523" y="87" width="1157" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5035545" side_tool="true" visible="true" weight="0.16725352" />
