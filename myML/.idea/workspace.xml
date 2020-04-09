@@ -279,10 +279,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="523" y="87" width="1157" height="936" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" sideWeight="0.5035545" side_tool="true" visible="true" weight="0.16725352" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4964455" visible="true" weight="0.16725352" />
+      <window_info active="true" id="Favorites" order="0" sideWeight="0.5035545" side_tool="true" visible="true" weight="0.16725352" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4964455" visible="true" weight="0.16725352" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
