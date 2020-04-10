@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc781f7-9f36-4842-bb3c-afb87babdaf8" name="Default Changelist" comment="" />
+    <list default="true" id="3fc781f7-9f36-4842-bb3c-afb87babdaf8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../VIIII_Decision_Tree/01. Decision Tree Intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../VIIII_Decision_Tree/01. Decision Tree Intro.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/matrics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -279,6 +281,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="523" y="87" width="1157" height="936" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" id="Favorites" order="0" sideWeight="0.5035545" side_tool="true" visible="true" weight="0.16725352" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4964455" visible="true" weight="0.16725352" />
@@ -404,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
